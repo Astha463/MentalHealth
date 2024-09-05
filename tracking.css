@@ -1,0 +1,108 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:  black;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    margin-bottom: 20px;
+}
+select {
+    display: block;
+    margin-bottom: 10px;
+}
+button {
+    background-color:  black;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:  black;
+}
+
+#tips {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+h2 {
+    color:  rgb(180, 240, 180);
+}
+
+label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+label:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+input[type="radio"]:checked + label {
+    font-weight: bold;
+    color:  rgb(180, 240, 180);
+}
+div {
+    margin-bottom: 10px;
+}
+textarea {
+    resize: vertical;
+    height: 120px;
+    width: 320px;
+}
+
+.HappyMind{
+    color: white;
+ padding-right: 600px;
+  }
+  
+.navbar {
+    background-color: #222;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar li {
+    float: left;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .navbar li a:hover {
+    background-color: #575757;
+    transform: scale(1.1);
+  }
